@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/ma/projet/config/HibernateConfig.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/ma/projet/config/HibernateConfig.java" />
+              <option name="originalContent" value="&#10;&#10;" />
+              <option name="updatedContent" value="package ma.projet.config;&#10;&#10;/**&#10; * Deprecated placeholder.&#10; * The active Spring configuration is now `ma.projet.util.HibernateUtil`.&#10; * This file left intentionally as a non-configuration placeholder to avoid accidental registration.&#10; */&#10;@Deprecated&#10;final class HibernateConfigRemoved {&#10;    private HibernateConfigRemoved() {&#10;        // utility class - not instantiable&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
