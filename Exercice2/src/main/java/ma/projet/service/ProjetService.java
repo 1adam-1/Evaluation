@@ -5,7 +5,7 @@ import ma.projet.classes.Projet;
 import ma.projet.classes.Tache;
 import ma.projet.dao.IDao;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -17,7 +17,7 @@ import java.util.List;
 @Transactional
 public class ProjetService implements IDao<Projet> {
 
-    @PersistenceContext
+    @Autowired
     private EntityManager entityManager;
 
     @Override
